@@ -1,0 +1,7 @@
+services:
+  app:
+    entrypoint:
+    - sleep
+    - infinity
+    build: .
+    init: true
